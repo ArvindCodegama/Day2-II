@@ -1,0 +1,478 @@
+.navi-bar
+{
+	background-color: solid white;
+	border-style: none;
+	height: 60px;
+	width: 1423px;
+
+}
+
+.logo
+{
+position: absolute;
+height: 10px;
+width: 10px;
+border:none;
+padding: 0px;
+margin-left: 80px;
+}
+
+.navi 
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: white;
+	margin-left: 900px;
+	margin-top: 0px;
+
+
+}
+.navi ul li
+{
+  display: inline-flex;
+  position: relative;
+  font-style: inherit;
+  align-items: center;
+  color: white;
+  width: 80px;
+  border: none;
+
+
+}
+
+.navi a
+{
+	color: black;
+}
+
+.navi li
+{
+	color: #000000;
+}
+
+.container-fluid 
+{
+	width: 100%;
+	height: 300px;
+
+}
+
+.center h1
+{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.center-1
+{
+  position: absolute;
+  top: 32%;
+  left: 14%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.container-fluid .btn 
+{
+  position: absolute;
+  top: 40%;
+  left: 8.5%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+}
+.container
+{
+	margin-top: 600px;
+}
+.gallery 
+{
+  border: 1px solid #ccc;
+  float: left;
+  width: 450px;
+  height: 200px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.gallery:hover 
+{
+
+  border: 1px solid #777;
+}
+
+.gallery img 
+{
+  width: 100%;
+  height: 200px;
+}
+
+
+
+.container
+{
+	width: 100%;
+	height: 300px;
+
+}
+
+.cen-1 h1
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+}
+
+.cen-2
+{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.ctn h1
+{
+  position: absolute;
+  top: 143%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.ctn-1 h1
+{
+  position: absolute;
+  top: 143%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.ctn-2 h1
+{
+  position: absolute;
+  top: 143%;
+  left: 82%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+.row-1
+{
+	margin-top: 150px;
+}
+
+
+.row .strong h2
+{
+	font-size: 80px;
+	color: orange
+}
+
+
+.card 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  margin-left: 50px;
+  text-align: center;
+  font-family: arial;
+  padding: 0 14px;
+}
+
+.price 
+{
+  color: grey;
+  font-size: 22px;
+}
+
+.card button 
+{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover 
+{
+  opacity: 0.7;
+}
+
+.card-1 
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  padding: 0 14px;
+  font-family: arial;
+}
+
+.price 
+{
+  color: grey;
+  font-size: 22px;
+}
+
+.card-1 button 
+{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-1 button:hover 
+{
+  opacity: 0.7;
+}
+
+.card-2
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  padding: 0 12px;
+  font-family: arial;
+}
+
+.price 
+{
+  color: grey;
+  font-size: 22px;
+}
+
+.card-2 button 
+{
+  border: none;
+  outline: 0;
+  padding: 14px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-2 button:hover 
+{
+  opacity: 0.7;
+}
+
+
+.card-3
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  text-align: center;
+  padding: 0 12px;
+  font-family: arial;
+}
+
+.price 
+{
+  color: grey;
+  font-size: 22px;
+}
+
+.card-3 button 
+{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card-3 button:hover 
+{
+  opacity: 0.7;
+}
+
+.container-1
+{
+	width: 100%;
+	height: 300px;
+
+}
+
+.cen-3 h1
+{
+  position: absolute;
+  top: 280%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+}
+
+.cen-4
+{
+  position: absolute;
+  top: 290%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.container-1 img
+{
+  border-radius: 90%;
+  margin-top: 200px;
+  width: 400px;
+  height: 200px;
+}
+
+.container-2
+{
+	width: 100%;
+	height: 300px;
+
+}
+
+.cen-5 h1
+{
+  position: absolute;
+  top: 280%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: orange;
+}
+.text-center
+{
+	margin-top: 750px;
+}
+
+.footer-map 
+{
+	margin-top: 50px;
+	height: 300px;
+	width: 100%;
+	background: url('../images/map.jpg');
+	background-size: cover;
+	border-color: #ccc;
+	}
+.footer-info 
+{
+    padding: 20px 0;
+    background: #f7f7f7;
+}
+
+.footer-info, .footer-info a:link, .footer-info a:hover, .footer-info a:focus, .footer-info a:visited {
+    color: #959595;
+	}
+
+.footer-info h3 
+{
+	color: black;
+	font-size: 18px;
+	}
+    
+.footer-info-item 
+{
+    padding: 0px 20px;
+ }
+    
+
+
+.row-2
+{
+	background-color: orange;
+	padding: 30px 0;
+	width: 1423px;
+	height: 200px;
+}
+
+.card-4
+{
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  text-align: left;
+  padding: 0 120px;
+  font-family: arial;
+}
+
+.card-4 h4 
+{
+  color: white;
+  font-size: 12px;
+  white-space: 0px;
+}
+
+.card-5
+{
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  text-align: left;
+  padding: 0 120px;
+  font-family: arial;
+}
+
+.card-5 h4 
+{
+  color: white;
+  font-size: 12px;
+  white-space: 0px;
+}
+
+.card-6
+{
+  max-width: 300px;
+  margin: auto;
+  float: left;
+  text-align: left;
+  padding: 0 120px;
+  font-family: arial;
+}
+
+.card-6 h4 
+{
+  color: white;
+  font-size: 12px;
+  white-space: 0px;
+}
+
+.small-print container
+{
+	background-color: #fff;
+	text-align: center;
+}
